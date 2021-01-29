@@ -2,18 +2,18 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1611947006616.000,
-    "dirty" : true,
+    "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
     "id" : "E5641783",
-    "lastKnownWriteTime" : 1611952276,
-    "last_content_update" : 1611959525820,
+    "lastKnownWriteTime" : 1611961085,
+    "last_content_update" : 1611961085959,
     "path" : "~/Desktop/faninneverland/config.yaml",
     "project_path" : "config.yaml",
     "properties" : {
         "cursorPosition" : "64,22",
-        "scrollLine" : "54"
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [

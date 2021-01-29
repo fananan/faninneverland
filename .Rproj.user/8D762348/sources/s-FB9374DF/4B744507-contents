@@ -1,0 +1,29 @@
+---
+title: How did I get here?
+author: ~
+date: '2019-02-07'
+slug: how-did-i-get-here
+categories: []
+tags: []
+data: '2019-02-07T22:50:57-05:00'
+description: ''
+image: ''
+---
+
+## The simple workflow to get started with Blogdown
+
+I always want to start my own blog. I tried Medium because I really liked their simple neat interface, but the only thing it lacks of is the function to let me embed code in my article. Later I found blogdown and got excited to use it, but I almost gave up because I encounted few trivial problems. So I would like to share what I learned through this process to share my workflow based on the resources I searched along the way. 
+
+1. Create a new **EMPTY** project (do not use "create website with Hugo", because I found out you can't view the website in your viewer this way).
+2. Type blogdown::new_site() in the console.
+3. Pick a them you like. 
+   * choose a simple one at first. Your contents is more important than what fancy theme you pick and it'll be also hard to de-bug if something goes wrong with your fancy them
+   * copy the user/repo from the **top left** position in github homepage and paste in "theme="
+4. use **update_metadata** addin to refresh all your updates on your homepage (the configuration in the config.toml).
+5. use **serve_site** to render your post updates.
+   * the statement in the output shows the address to open your blog. For example: 'Serving the directory /Users/fanliu/Documents/Fan's Blog at <http://127.0.0.1:5216>'
+   * this blog helps to solve the problem that I created contents in my post but it couldn't show up in the viewer:<https://knausb.github.io/2017/06/a-first-post-using-blogdown/>. I really appreciate the author to share what he experienced.
+
+6. To create a new post: blogdown::new_post("test", ext = getOption("blogdown.ext", ".Rmd")). Use this extension argument to make it as Rmarkdown rather than default Markdown.
+   
+So just use these 5 simple steps, you can create your own website! I took many detours to get here so hope this post can help you start your website much easier!

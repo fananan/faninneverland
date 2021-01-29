@@ -1,0 +1,12 @@
+---
+title: test
+author: Fan Liu
+date: '2021-01-29'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+description: ''
+image: ''
+---
+### not sure how to use blogdown::new_post directly to create a post. This test post is created by using "Add-ins"
