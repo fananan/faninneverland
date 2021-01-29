@@ -56,7 +56,7 @@ params:
     - href: https://jinhuizi-fu.github.io/
       title: Huizi's Blog
   friends: yes
-  header_image: img/home-bg-jeep.jpg
+  header_image: img/Bazille_family_reunion.jpg
   image_404: img/404-bg.jpg
   keyword: Machine Learning, Python
   leancloud_app_id: ''
@@ -65,7 +65,7 @@ params:
   page_view_conter: no
   reward: yes
   sidebar_about_description: Machine Learning Scientist
-  sidebar_avatar: img/zhaohuabing.png
+  sidebar_avatar: img/naruto_profile.jpg
   slogan: KEEP CURIOUS
   social:
     email: fanliu931106@gmail.com
